@@ -1,0 +1,17 @@
+@font-face {
+    font-family:'retro' ;
+    src: url('../fonts/retro_computer_personal_use.ttf') format('opentype');
+    font-weight: normal;
+}
+
+*{
+    box-sizing: border-box;
+    margin:0 auto;
+}
+.sobre { 
+    background-image: url(../img/fundosobre);
+    width: 50%;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}

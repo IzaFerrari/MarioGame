@@ -1,0 +1,43 @@
+@font-face {
+    font-family:'retro' ;
+    src: url('../fonts/retro_computer_personal_use.ttf') format('opentype');
+    font-weight: normal;
+}
+
+*{
+        box-sizing: border-box;
+        margin:0 auto;
+    }
+
+nav { 
+    background-image: url(../img/background.png);
+    height: 500px;
+    width: 50%;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 1em;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+nav ul li a {
+color: black;
+font-family: retro;
+padding: 15px;
+text-decoration: none;
+display: block;
+width: 25px;
+text-transform: uppercase;
+
+}
+
+nav ul li a:hover {
+color: black;
+}
